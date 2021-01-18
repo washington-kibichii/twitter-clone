@@ -2,30 +2,32 @@ import React from 'react';
 import './Sidebar.css';
 import SidebarOption from './SidebarOption';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
-import ExploreRoundedIcon from '@material-ui/icons/ExploreRounded';
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
+import ExploreOutlinedIcon from '@material-ui/icons/ExploreOutlined';
 import NotificationsNoneRoundedIcon from '@material-ui/icons/NotificationsNoneRounded';
-import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
+import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import BookmarkBorderRoundedIcon from '@material-ui/icons/BookmarkBorderRounded';
-import FeaturedPlayListIcon from '@material-ui/icons/FeaturedPlayList';
+import FeaturedPlayListOutlinedIcon from '@material-ui/icons/FeaturedPlayListOutlined';
 import PersonOutlinedIcon from '@material-ui/icons/PersonOutlined';
 import MoreHorizRoundedIcon from '@material-ui/icons/MoreHorizRounded';
+import { Button } from '@material-ui/core'
 
 function Sidebar() {
-    return (
+    return   (
         <div className="sidebar">
             {/* {Twitter Icon} */}
             <TwitterIcon />
-            <SidebarOption Icon={ HomeRoundedIcon } text="Home" />
-            <SidebarOption Icon={ ExploreRoundedIcon } text="Explore"/>
+            <SidebarOption active Icon={ HomeOutlinedIcon } text="Home" />
+            <SidebarOption Icon={ ExploreOutlinedIcon } text="Explore"/>
             <SidebarOption Icon={ NotificationsNoneRoundedIcon } text="Notifications"/>
-            <SidebarOption Icon={ EmailRoundedIcon } text="Messages"/>
+            <SidebarOption Icon={ EmailOutlinedIcon } text="Messages"/>
             <SidebarOption Icon={ BookmarkBorderRoundedIcon } text="Bookmarks"/>
-            <SidebarOption Icon={ FeaturedPlayListIcon } text="Lists"/>
+            <SidebarOption Icon={ FeaturedPlayListOutlinedIcon } text="Lists"/>
             <SidebarOption Icon={ PersonOutlinedIcon } text="Profile"/>
             <SidebarOption Icon={ MoreHorizRoundedIcon } text="More"/>
 
             {/* {Tweet Button -> } */}
+            <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweet</Button>
         </div>
     )
 }
