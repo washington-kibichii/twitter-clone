@@ -1,0 +1,41 @@
+.trends {
+    margin-top: 20px;
+    background-color:#f3f5f7;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.trends__header{
+    font-weight: 900;
+    border-bottom: 1px solid var(--twitter-background);
+    margin-bottom: 10px;
+}
+.trends__header > h2 {
+    padding: 15px 15px 5px 15px;
+}
+.trends__body > ol > li {
+    padding-top: 10px;
+    color: #5b7083;
+    font-size: small;
+}
+.trends__body > ol {
+    padding-left: 30px;
+}
+.trends__body > ol > div > h3 {
+    margin-left: -15px;
+}
+.trends__body > ol > div {
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+}
+.trends__body > ol > div >  span {
+    font-size: small;
+    margin-left: -15px;
+    padding-bottom: 15px;
+    color: #5b7083;
+}
+.trends__footer > h5 {
+    color: var(--twitter-color);
+}
+.trends__footer{
+    padding: 15px;
+}

@@ -1,3 +1,17 @@
 .widgets{
     flex: 0.3;
+    padding: 10px 25px 0 25px;
+}
+.widgets > input{
+    background-color: #ebeef0;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 95%;
+    border-radius: 30px;
+    padding-left: 20px ;
+}
+.widgets > input::placeholder {
+    color: #5b7083;
+
 }

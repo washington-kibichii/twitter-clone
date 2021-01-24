@@ -1,11 +1,13 @@
 import React from 'react';
+import Trends from "./Trends"
 import "./Widgets.css";
 
 function Widgets() {
     return (
         <div className="widgets">
-            <h2>Widgets</h2> 
-        </div>         
+            <input placeholder="Search"></input>
+            <Trends /> 
+        </div>     
     )
 }
 
