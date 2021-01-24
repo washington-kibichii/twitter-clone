@@ -1,11 +1,7 @@
-# Getting Started with Create React App
+### Available Scripts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-### `yarn start`
-### `yarn build`
+##### `yarn start`
+##### `yarn build`
 
 ### Preview
 ![alt text](https://github.com/washington-kibichii/twitter-clone/blob/master/twrjs.png?raw=true)
